@@ -1,0 +1,266 @@
+/**
+ * Hector Rodriguez's Magento Reset CSS v1.0 (https://github.com/madebyhector/magento-reset-css)
+ * http://madebyhector.com/
+ */
+
+
+/* #Reset & Basics (Inspired by E. Meyers)
+================================================== */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: normal; 
+    font: inherit;
+    vertical-align: baseline; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block; }
+body {
+    line-height: 1; }
+ol, ul {
+    list-style: none; }
+blockquote, q {
+    quotes: none; }
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none; }
+table {
+    border-collapse: collapse;
+    border-spacing: 0; }
+
+
+/* #Basic Styles
+================================================== */
+body {
+    background: #fff;
+    font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #444;
+    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+    -webkit-text-size-adjust: 100%;
+    text-align: left;
+}
+
+
+/* #Typography
+================================================== */
+h1, h2, h3, h4, h5, h6 {
+    color: #181818;
+    font-weight: normal; }
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+h1 { font-size: 46px; line-height: 50px; margin-bottom: 14px;}
+h2 { font-size: 35px; line-height: 40px; margin-bottom: 10px; }
+h3 { font-size: 28px; line-height: 34px; margin-bottom: 8px; }
+h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
+h5 { font-size: 17px; line-height: 24px; }
+h6 { font-size: 14px; line-height: 21px; }
+.subheader { color: #777; }
+
+p { margin: 0 0 20px 0; }
+p img { margin: 0; }
+p.lead { font-size: 21px; line-height: 27px; color: #777;  }
+
+em { font-style: italic; }
+strong { font-weight: bold; color: #333; }
+small { font-size: 80%; }
+
+/*	Blockquotes  */
+blockquote, blockquote p { font-size: 17px; line-height: 24px; color: #777; font-style: italic; }
+blockquote { margin: 0 0 20px; padding: 9px 20px 0 19px; border-left: 1px solid #ddd; }
+blockquote cite { display: block; font-size: 12px; color: #555; }
+blockquote cite:before { content: "\2014 \0020"; }
+blockquote cite a, blockquote cite a:visited, blockquote cite a:visited { color: #555; }
+
+hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
+
+
+/* #Links
+================================================== */
+a, a:visited { color: #333; text-decoration: underline; outline: 0; }
+a:hover, a:focus { color: #000; }
+p a, p a:visited { line-height: inherit; }
+
+
+/* #Lists
+================================================== */
+ul, ol { /*margin-bottom: 20px; */}
+ul { list-style: none outside; }
+ol { list-style: decimal; }
+ol, ul.square, ul.circle, ul.disc { /*margin-left: 30px;*/ }
+ul.square { list-style: square outside; }
+ul.circle { list-style: circle outside; }
+ul.disc { list-style: disc outside; }
+ul ul, ul ol,
+ol ol, ol ul {/* margin: 4px 0 5px 30px; */font-size: 90%;  }
+ul ul li, ul ol li,
+ol ol li, ol ul li { /*margin-bottom: 6px;*/ }
+li { /*line-height: 18px; margin-bottom: 12px;*/ }
+ul.large li { line-height: 21px; }
+li p { line-height: 21px; }
+
+/* #Images
+================================================== */
+
+img.scale-with-grid {
+    max-width: 100%;
+    height: auto; }
+
+
+/* #Misc
+================================================== */
+.remove-bottom { margin-bottom: 0 !important; }
+.half-bottom { margin-bottom: 10px !important; }
+.add-bottom { margin-bottom: 20px !important; }
+
+
+
+
+
+
+
+
+/* ------------------------------------------------ *\
+   RESET MAGENTO DEFAULT
+/* ------------------------------------------------ */
+
+
+/* Background
+================================================== */
+
+.header-panel { background: none; }
+.switches { background: none; }
+.switch { background: none; }
+.nav-container { background: none; }
+#nav { background: none; }
+#nav a.level-top { background: none; }
+.footer-container { background: none; }
+.footer { background: none; }
+a.button, button.button span, a.button span, button.button { background: none; }
+a.button span, button.button span span { background: none; }
+#nav li.over a.level-top, #nav li.active a.level-top { background: none; }
+#nav li.over a.level-top span, #nav li.active a.level-top span { background: none; }
+#nav a.level-top span { background: none; }
+.main { background: none; }
+.page-title { background: none; }
+.breadcrumbs { background: none; }
+.sorter { background: none; }
+.pager { background: none; }
+.top-cart .block-title { background: none; }
+#nav ul, #nav div { background: none; }
+.product-view { background: none; }
+.box-collateral .box-title { background: none; }
+.product-view .product-shop .product-main-info { background: none; }
+.page-head, .page-head-alt { background:none; }
+.product-view .product-essential button.btn-cart span, .add-to-cart button.btn-cart span {
+    background: none; }
+.product-view .product-essential button.btn-cart span span, .add-to-cart button.btn-cart span span { background: none; }
+.cart { background: none; }
+.cart .checkout-types .btn-proceed-checkout span { background: none; }
+.cart .checkout-types .btn-proceed-checkout span span { background: none; }
+.opc .active .step-title h2 { background: none; }
+input.input-text, textarea { background: none; }
+.sidebar .block-layered-nav .currently { background: none; }
+
+.table-caption { background: #e7e7e7; }
+.data-table th { background: #efefef; }
+.info-box { background: #fcfcfc; }
+
+
+/* Borders
+================================================== */
+#nav a.level-top { border-top: 0px; }
+.footer-container { border: 0px; }
+.main { border: 0px; }
+.page-title { border: 0px; }
+#nav ul, #nav div { border: 0px;  }
+.toolbar .sorter { border: 0px; }
+.toolbar .pager { border: 0px; }
+.product-view  { border: 0px; }
+.options-container-big { border: 0px; }
+.box-collateral .box-title { border: 0px; }
+.sidebar .block { border: 0px; }
+#nav ul li { border: 0px; }
+
+/* Width & Sizes
+================================================== */
+.page { width: auto; }
+.header { width: auto; }
+#nav { width: auto; }
+.col-left { width: auto; }
+.top-cart .block-title { height: auto; }
+.product-view .product-shop  { width: auto; }
+
+
+
+
+
+/* Padding
+================================================== */
+.wrapper { padding: 0; }
+.col-main { padding: 0; }
+.copyright { padding: 0; }
+.footer-container { padding: 0; }
+#nav li.over a.level-top , #nav a.level-top { padding:  0; }
+#nav li.over a.level-top span, #nav li.active a.level-top span { padding-top: 0px; }
+#nav ul, #nav div { padding: 0; }
+.header .quick-access { padding-top: 0px; }
+.nav-container { padding-bottom: 0px; }
+.page-title { padding: 0; }
+.breadcrumbs { padding: 0; }
+.header { padding: 0; }
+
+/* MARGIN
+================================================== */
+.branding { margin: 0; top: 0; }
+.header h1.logo { margin-bottom: 0px; }
+.header-container { margin-bottom: 0px; }
+#nav li.over a.level-top, #nav li.active a.level-top { margin: 0; }
+.category-view { margin: 0; }
+.toolbar { margin: 0; }
+.product-view { margin: 0; }
+.main { margin-bottom: 0; }
+.page-popup .page-title, .col-main .page-title { margin-left: 0; margin-right: 0; }
+
+/* PADDING
+================================================== */
+#nav { padding: 0; }
+#nav li.over a.level-top, #nav li.active a.level-top p { padding: 0; }
+.products-grid { padding-left: 0; }
+
+
+
+/* Buttons
+================================================== */
+button.button {  padding: 5px 15px 5px 5px; }
+button.button:hover,  button.button:hover  span {background: #333;   }
+a.button, button.button span, a.button span, button.button { background: #1a1a1a; text-shadow: none; border-radius: 5px;  line-height: 20px;    }
+a.button span, button.button span span { color: #fff; padding: 0;  }
+
+
+/* Underline
+================================================== */
+.breadcrumbs a:hover { text-decoration: none; }
+.pager .pages a { text-decoration: none; }
+
+
+/* Height
+================================================== */
+#nav a.level-top { height: 28px; line-height: 28px;  }
+#nav li.over a.level-top { height: 28px; line-height: 28px;  }
+#nav li.active a.level-top { height: 28px; line-height: 28px; }
+
+
+/* COLORS
+================================================== */
+/* DONT USE BLACK #000 USE #222 nicer to the eyes */
+.header .quick-access .links li a:hover { color: #ccc; }
+.form-subscribe-header { color: #222; }
+.header .quick-access .links li a { color: #222; }
+.page-title h1, .page-title h2 { color: #222; }
+#nav ul li.active > a { color: #222; }
+.product-view .product-name h1 { color: #222; }
+
+
+/*** POSITION ***/
+#nav li .shown-sub  { left: 0px; }
